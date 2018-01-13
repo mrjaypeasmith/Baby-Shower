@@ -59,7 +59,7 @@ h1 {
 }
 
 .button:hover {
-    background-color: #9f9796;
+    background-color: #d2c8c6;
 	box-shadow: 0 0 9px 5px rgb(112, 111, 111);
 }
 
@@ -74,10 +74,11 @@ html,body {
 	display: grid;
 	grid-template-columns: 1fr;
 	align-items: center;
+	margin-top: 200px;
 }
 
 .frame{
-	width: 600px;
+	width: auto;
 	height: 350px;
 	margin: auto;
 	position: relative;
@@ -93,7 +94,7 @@ html,body {
 	max-height:300px;
 	height: auto;
 	background: #ece0de;
-	margin: 0 auto;
+	margin: 10px;
 	top: 30px;
 	box-shadow: 0 0 5px 2px rgb(138, 138, 138);
 	transition:2s ease-in-out;
