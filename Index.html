@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+
     <style>
     </style>
 
@@ -66,24 +67,25 @@
                 <div class="top"></div>
 
             </div>
-            <!-- Scripts go here -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-            <script>
-                $(document).ready(function () {
+        </div>
+        <!-- Scripts go here -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
 
-                    /*! Fades in page on load */
-                    $('body').css('display', 'none');
-                    $('body').fadeIn(1200);
+                /*! Fades in page on load */
+                $('body').css('display', 'none');
+                $('body').fadeIn(1200);
 
-                });
-                $(document).ready(function () {
-                    $('.frame').click(function () {
-                        $('.top').addClass('open');
-                        $('.message').addClass('pull expand');
-                        $('.extra-info').addClass('reveal-extra-info');
-                    })
-                });
-            </script>
+            });
+            $(document).ready(function () {
+                $('.frame').click(function () {
+                    $('.top').addClass('open');
+                    $('.message').addClass('pull expand');
+                    $('.extra-info').addClass('reveal-extra-info');
+                })
+            });
+        </script>
     </body>
 
 </html>
