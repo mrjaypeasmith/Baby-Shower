@@ -68,12 +68,12 @@ html,body {
 	height: 110%;
 	background:rgb(233, 233, 233);
 	text-align: center;
+	align-items: center;
 }
 
 .container {
 	display: grid;
 	grid-template-columns: 1fr;
-	align-items: center;
 	margin-top: 200px;
 }
 
