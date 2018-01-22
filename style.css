@@ -165,7 +165,7 @@ html, body {
 .expand {
 	transition:min-height 1s ease-in-out, z-index 0.6s ease-in-out, top 1s ease-in-out;
 	transition-delay: 2s;
-	min-height: 950px;
+	min-height: 1025px;
 	z-index: 350;
 	top: -150px;
 	
